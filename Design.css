@@ -1,0 +1,170 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background:rgba(255, 255, 255, .1);
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 10;
+}
+.left_section{
+    position: absolute;
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.right_section{
+    position: absolute;
+    display: flex;
+    right: 40px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+.home{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.work{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+}
+#Parent{
+    position: relative;
+}
+.grad1{
+   position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+    background-image: linear-gradient(to bottom right ,rgb(71, 13, 130),rgb(239, 86, 196));
+    top: 350px;
+    left: 80%;
+    box-shadow: 5px 5px 35px rgb(71, 13, 130);
+}
+.grad2{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    background-image: linear-gradient(to bottom right ,rgb(71, 13, 130),rgb(239, 86, 196));
+    top: 40px;
+    left: 70%;
+    box-shadow: 5px 5px 35px rgb(71, 13, 130);
+}
+.grad3{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-image: linear-gradient(to bottom right ,rgb(71, 13, 130),rgb(239, 86, 196));
+    top: 50px;
+    left: -70px;
+    box-shadow: 5px 5px 35px rgb(71, 13, 130);
+}
+.grad4{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right ,rgb(71, 13, 130),rgb(239, 86, 196));
+    top:520px;
+    left: 210px;
+    box-shadow: 5px 5px 35px rgb(71, 13, 130);
+}
+.quote_half1{
+    position: absolute;
+    font-size: 50px;
+    top: 400px;
+    left: 250px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote_half2{
+    position: absolute;
+    font-size: 35px;
+    top: 470px;
+    left: 600px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info_head{
+    position: absolute;
+    font-size: 38px;
+    top: 180px;
+    left: 300px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info{
+    position: absolute;
+    font-size: 22px;
+    top: 280px;
+    left: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 40px 10px 10px;
+    text-align: left;
+}
+.skills{
+    border: 1px solid rgb(35, 35, 35);
+    height: 410px;
+    width: 500px;
+    position: fixed;
+    box-shadow: 10px 10px 35px rgb(35, 35, 35);
+    top: 200px;
+    left: 450px;
+    background-color: white;
+}
+.c{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 100px;
+}
+.cpp{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 100px;
+}
+.java{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 370px;
+    height: 100px;
+}
+.html{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    height: 100px;
+}
+.css{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 200px;
+    height: 100px;
+}
+.python{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 298px;
+    height: 118px;
+}
